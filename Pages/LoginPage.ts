@@ -3,7 +3,7 @@ import { BasPage } from "../utils/BasePage";
 
 export class LoginPage extends BasPage{
     
-    async OpenNdosiSite(){
+    async OpenNdosiPage(){
        
         await this.GoToURL('/')
     }
@@ -17,9 +17,11 @@ export class LoginPage extends BasPage{
         await this.EnterText(this.page.locator('#login-email'), username);
         await this.EnterText(this.page.locator('#login-password'), password);
         await this.ClickElement(this.page.getByRole('button', {name:'Login'}));
+        await this.ClickElement(this.page.locator('xpath=//button[@class="login-submit]'));
     }
 
-    async verifyDashboardHeading(): Locator{
+    async verifyDashboardHeading() {
+        await this.VerifyElementVisible(this.page.getByRole('heading', {name: /Welcome\s*back/i}));
         
     }
 
