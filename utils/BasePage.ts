@@ -5,7 +5,7 @@ export class BasPage{
     constructor(public page:Page){
     }
 
-    async GoTo(url: string){
+    async GoToURL(url: string){
         await this.page.goto(url);
     }
 
