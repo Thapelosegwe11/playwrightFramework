@@ -2,7 +2,7 @@
 
 export const validUsers = {
 
-    AdminUser:{
+    Admin:{
         username: 'Segwe.bz@gmail.com',
         password: 'rA!ny@$14',
     },

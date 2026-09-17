@@ -17,7 +17,7 @@ export class LoginPage extends BasPage{
         await this.EnterText(this.page.locator('#login-email'), username);
         await this.EnterText(this.page.locator('#login-password'), password);
         await this.ClickElement(this.page.getByRole('button', {name:'Login'}));
-        await this.ClickElement(this.page.locator('xpath=//button[@class="login-submit]'));
+        //await this.ClickElement(this.page.locator('xpath=//button[@class="login-submit]'));
     }
 
     async verifyDashboardHeading() {
