@@ -5,6 +5,7 @@ import {test as base } from "@playwright/test";
 type CustormFixtures = {
 
     loginPage : LoginPage;
+    //LoginPage loginpage = new LoginPage; //intance of the LoginPge class.
 
 };
 
