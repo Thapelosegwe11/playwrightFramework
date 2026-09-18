@@ -2,8 +2,8 @@ import { test } from "../fixtures/CustomFixtures";
 import { validUsers } from "../testData/TestData";
 
 
-// test.beforeEach( async ({loginPage}) => {
-//     await loginPage.GoToURL('/');
+ //test.beforeEach( async ({loginPage}) => {
+ //      await loginPage.OpenNdosiPage();
 //     await loginPage.navigateToLoginPage;
 // });
 
