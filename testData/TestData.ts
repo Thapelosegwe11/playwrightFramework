@@ -11,5 +11,10 @@ export const validUsers = {
         username:'Jamesbonds@example.com',
         password: '@12345678',
 
+    },
+
+    GitUsername:{
+        username: 'Thapelosegwe11',
+        
     }
 }

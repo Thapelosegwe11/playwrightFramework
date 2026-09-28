@@ -1,6 +1,6 @@
 import { Locator, Page, expect } from "@playwright/test";
 
-export class BasPage{
+export class BasePage{
 
     constructor(public page:Page){
     }

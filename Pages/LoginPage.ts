@@ -1,7 +1,8 @@
-import { BasPage } from "../utils/BasePage";
+import { BasePage } from "../utils/BasePage";
+import { Locator } from "@playwright/test";
 
 
-export class LoginPage extends BasPage{
+export class LoginPage extends BasePage{
     
     async OpenNdosiPage(){
        
